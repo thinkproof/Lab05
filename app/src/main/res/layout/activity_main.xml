@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vert_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/textLabela"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="Current"
+        android:gravity="center"
+        android:background="#f8ff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel2a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onCreate()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel3a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onStart()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel2"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel4a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onResume()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel3"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel5a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onPause()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel4"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel6a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onStop()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel5"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel7a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onRestart()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel6"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel8a"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onDestroy()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel7"
+        app:layout_constraintRight_toRightOf="@id/vert_guideline"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textLabel"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="Lifetime"
+        android:gravity="center"
+        android:background="#f8ff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel2"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onCreate()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel3"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onStart()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel4"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onResume()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel5"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onPause()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel6"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onStop()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel7"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onRestart()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+    <TextView
+        android:id="@+id/textLabel8"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:text="onDestroy()"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/textLabel7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert_guideline" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
